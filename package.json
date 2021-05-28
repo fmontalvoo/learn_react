@@ -1,0 +1,30 @@
+{
+  "name": "fundamentos_react",
+  "version": "1.0.0",
+  "description": "Fundamentos de React",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --entry-file=public/",
+    "build": "babel src/App.js --out-file=build/app.js --presets=env,react --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmontalvoo/fundamentos_react.git"
+  },
+  "keywords": [
+    "React",
+    "Javascript"
+  ],
+  "author": "Frank Montalvo Ochoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmontalvoo/fundamentos_react/issues"
+  },
+  "homepage": "https://github.com/fmontalvoo/fundamentos_react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.1"
+  }
+}
